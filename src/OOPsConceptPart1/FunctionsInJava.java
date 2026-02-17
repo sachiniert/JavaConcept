@@ -15,8 +15,9 @@ public class FunctionsInJava {
 		String s1 = obj.qa();
 		System.out.println(s1);
 		
-		int v = obj.division(30, 10);
-		System.out.println(v);
+		int div = obj.division(30, 10);
+		System.out.println(div);
+		//main method is void --never returns a value
 		
 
 	}
