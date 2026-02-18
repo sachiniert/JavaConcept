@@ -2,6 +2,7 @@ package OOPsConceptPart1;
 
 public class StaticAndNonStaticConcept {
 	
+	//global vars: the scope of global vars will be available across all the functions with some conditions
 	String name ="Tom"; // non static global var
 	static int age = 25; // static global var
 	
@@ -18,7 +19,14 @@ public class StaticAndNonStaticConcept {
 		System.out.println(age);
 		System.out.println(StaticAndNonStaticConcept.age);
 		
+		// how to call non static methods and vars
+		StaticAndNonStaticConcept obj = new StaticAndNonStaticConcept();
 
+		obj.sendMail();
+		System.out.println(obj.name);
+		
+		// interview -- can i access static method by using object reference? yes
+		obj.sum();// warning will be given
 	}
 	
 	public void sendMail() { // non static method
