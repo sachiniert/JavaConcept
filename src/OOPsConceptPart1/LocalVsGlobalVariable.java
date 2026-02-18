@@ -6,15 +6,17 @@ public class LocalVsGlobalVariable {
 	int age = 25;
 
 	public static void main(String[] args) {
-		
-
 		int i = 10; // Local variable 
 		System.out.println(i);
+		
+		LocalVsGlobalVariable obj = new LocalVsGlobalVariable();
+		System.out.println(obj.name);
+		System.out.println(obj.age);
 		
 	}
 
 	public void sum() {
-		int i = 10;
+		int i = 10;// Local var for sum method
 		int j = 20;
 		int age = 25;
 	}
