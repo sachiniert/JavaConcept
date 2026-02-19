@@ -6,7 +6,7 @@ public class FinalConcept {
 		
 		final int i = 10; // contant value--can not modify the value of final variable
 		
-
+// final is a keyword
 	}
 
 }

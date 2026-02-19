@@ -5,6 +5,7 @@ public class FinalizeConcept {
 		System.out.println("finalize method");
 	}
 
+	// finalize is a method
 	public static void main(String[] args) {
 		FinalizeConcept f1 = new FinalizeConcept();
 		FinalizeConcept f2 = new FinalizeConcept();

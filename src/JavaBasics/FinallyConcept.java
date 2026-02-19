@@ -8,6 +8,7 @@ public class FinallyConcept {
 		division();
 
 	}
+	//finally is  block
 	public static void test1() {
 		try {
 			System.out.println("inside test1 method");
