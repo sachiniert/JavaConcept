@@ -19,12 +19,27 @@ public class FunctionsInJava {
 	   System.out.println(d3);
 
 	}
+	//1 . can not create a function inside a function
+	//2. functions are independent to each other
+	// 3 . function are parallel to each other
+	
 	// 1 . no input and no output function:
 	// void -- means does not return any value
 	public void test() 
 	{
 		System.out.println("test method");
 	}
+	public void test(int i) 
+	{
+		System.out.println("test method");
+	}
+	// Method overloading : when is the same class, functions are having the same name with different parameters
+	public void test(int i , int j) 
+	{
+		System.out.println("test method");
+	}
+	
+	
 	// 2. no input but some output
 	// return type -- int
 	public int sum() {
