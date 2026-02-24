@@ -1,0 +1,15 @@
+TestNg-- unit test framework
+
+Purpose-- desgin test cases in a systematic way
+-- html reports generate
+-- diffrenet annotations
+-- priorties/sequence
+-- dependency
+-- grouping 
+-- data provider
+
+testng -- open source
+JAR files
+
+-- java unit testing framework
+install TestNG in eclipse

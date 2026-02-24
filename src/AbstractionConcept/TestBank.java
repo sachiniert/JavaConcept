@@ -8,11 +8,14 @@ public class TestBank {
 		hb.credit();
 		hb.debit();
 		hb.loan();
+		hb.funds();
 		System.out.println("**********");
-		Bank b  = new HDFCBank();
+		
+		Bank b  = new HDFCBank(); // Dynamic poly morphism
 		b.loan();
 		b.debit();
 		b.loan();
+		// b.funds(); not access because not part of bank
 
 	}
 
