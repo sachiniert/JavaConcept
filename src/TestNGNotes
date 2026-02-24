@@ -13,3 +13,10 @@ JAR files
 
 -- java unit testing framework
 install TestNG in eclipse
+
+
+Why String is immutable and Final ?
+1.  String Pool in Method Area
+     String s1 = "java"
+     String s2 = "java"
+     String s3 = "selenium"
