@@ -3,6 +3,7 @@ package ProgrammingQuestion;
 public class PalindromeNumber {
 	
 	// 151  454   34543  78987 :  Palindrome number
+	//  teet : palindrome String
 	
 	
 	public static void inPalindromeNumber( int num) {
